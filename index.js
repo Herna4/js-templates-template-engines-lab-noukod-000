@@ -10,6 +10,8 @@ function createPost(){
   var post = document.getElementById('post').value;
   var postAuthor = document.getElementById('postAuthor').value;  
   
+  document.getElementsByTagName("main")[0].innerHTML += pageTemplate();
+  
 // document.getElementsByTagName("main")[0].innerHTML += pageTemplate();
 
 //   var blogSection = postTemplate({ 'title': postTitle, 'body': post, 'poster': postAuthor });
