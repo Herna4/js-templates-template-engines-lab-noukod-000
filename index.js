@@ -13,8 +13,8 @@ function createPost(){
   document.getElementsByTagName("main")[0].innerHTML += pageTemplate();
   
   var blogSection = postTemplate({ 'title': postTitle, 'body': post, 'poster': postAuthor});
-  var commentsSection = commentsTemplate();
   var postElement = document.getElementById("post");
+  var commentsSection = commentsTemplate();
 
 //   postElement.innerHTML = blogSection;
 //   postElement.getElementsByTagName("footer")[0].innerHTML = commentsSection;
