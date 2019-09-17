@@ -12,7 +12,7 @@ function createPost(){
   
   document.getElementsByTagName("main")[0].innerHTML += pageTemplate();
   
-// document.getElementsByTagName("main")[0].innerHTML += pageTemplate();
+  var blogSection = postTemplate()
 
 //   var blogSection = postTemplate({ 'title': postTitle, 'body': post, 'poster': postAuthor });
 //   var commentsSection = commentsTemplate();
