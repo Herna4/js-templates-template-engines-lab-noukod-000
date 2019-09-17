@@ -23,6 +23,23 @@
         </form>
       </div>
     </script>
+     <script id="comment-template" type="text/x-lodash-template">
+      <div>
+        <p><%= comment %></p>
+        <footer>Posted by: <%= commenter %></footer>
+      </div>
+    </script>
+    <script id="page-template" type="text/x-lodash-template">
+      <div id="sidebar"></div>
+      <div id="post"></div>
+    </script>
+    <script id="post-template" type="text/x-lodash-template">
+      <article>
+        <header><h2><%- title %></h2><header>
+        <p><%- body %></p>
+        <footer>Posted by: <%= poster %></footer>
+      </article>
+    </script>
     <div id="mocha"></div>
     <script src="node_modules/mocha/mocha.js"></script>
     <script src="node_modules/expect/umd/expect.min.js"></script>
