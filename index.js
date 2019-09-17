@@ -16,9 +16,9 @@ function createPost(){
   var postElement = document.getElementById("post");
   var commentsSection = commentsTemplate();
 
-//   postElement.innerHTML = blogSection;
-//   postElement.getElementsByTagName("footer")[0].innerHTML = commentsSection;
-// }
+  postElement.innerHTML = blogSection;
+  postElement.getElementsByTagName("footer")[0].innerHTML = commentsSection;
+}
 
 // function postComment() {
 //   var commentTemplate = _.template(document.getElementById("comment-template").innerHTML);
